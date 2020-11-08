@@ -68,7 +68,7 @@ Build Finished.
 
 ````shell
 $ ls dist
-index.html      index.js
+index.html      index.js      style.css
 ````
 
 ## License
