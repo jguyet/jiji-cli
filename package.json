@@ -4,7 +4,7 @@
   "description": "simple CLI for jiji-js",
   "main": "index.js",
   "bin": {
-    "postcss": "./bin/ji"
+    "ji": "./bin/ji"
   },
   "scripts": {},
   "repository": "https://github.com/jguyet/jiji-cli.git",
