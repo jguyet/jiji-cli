@@ -6,7 +6,7 @@
     "devDependencies": {},
     "dependencies": {
         "browserify": "^17.0.0",
-        "jiji-js": "git+https://github.com/jguyet/jiji-js.git",
+        "jiji-js": "^0.0.1",
         "minify": "^6.0.1"
     },
     "description": "",
