@@ -9,20 +9,19 @@ npm install -g jiji-cli
 ## Usage
 
 ````shell
-ji [options]
+ji [command] [options]
 ji --help
 ````
 
 ````shell
-ji -r ""
-ji -r init
+ji new
 ````
 
-#### `--run="command" | -m [command]`
+#### `[command]`
 
-- `-r init` - create new sample application
-- `-r serve` - create server in default 8080 port with application pre-builded
-- `-r build` - build your application to dist directory
+- `ji new` - create new sample application
+- `ji debug` - create server in default 8080 port with application pre-builded
+- `ji build` - build your application to dist directory
 
 #### `--help|-h`
 
@@ -33,7 +32,7 @@ Show help
 Use for create sample application :
 
 ````shell
-$ ji -r init 
+$ ji new 
 What name do you want for the new workspace and the initial project? $> helloWorld
 
 CREATE /Users/jeremyguyet/project/helloWorld/package.json (2424)
@@ -51,7 +50,7 @@ $ cd helloWorld
 Use for debug :
 
 ````shell
-$ ji -r serve
+$ ji debug
 Start build before starting debug server
 ----------------------------------------
 App listening at http://localhost:8080
@@ -60,7 +59,7 @@ App listening at http://localhost:8080
 Use for build application :
 
 ````shell
-$ ji -r build
+$ ji build
 Start build
 ----------------------------------------
 Build Finished.
