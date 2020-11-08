@@ -1,0 +1,14 @@
+{
+    "name": "$projectName",
+    "version": "0.0.1",
+    "scripts": {
+    },
+    "devDependencies": {},
+    "dependencies": {
+        "browserify": "^17.0.0",
+        "jiji-js": "git+https://github.com/jguyet/jiji-js.git",
+        "minify": "^6.0.1"
+    },
+    "description": "",
+    "main": "main.js"
+}

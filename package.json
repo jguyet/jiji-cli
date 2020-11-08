@@ -1,0 +1,32 @@
+{
+  "name": "jiji-cli",
+  "version": "0.0.1",
+  "description": "simple CLI for jiji-js",
+  "main": "index.js",
+  "bin": {
+    "postcss": "./bin/ji"
+  },
+  "scripts": {},
+  "repository": "https://github.com/jguyet/jiji-cli.git",
+  "keywords": [
+    "jiji",
+    "jiji-cli",
+    "cli"
+  ],
+  "author": "Guyet Jeremy <jguyet@linepicplus.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "~3",
+    "express": "^4.17.1",
+    "open": "^7.3.0",
+    "ora": "^5.1.0",
+    "readline-sync": "^1.4.10",
+    "yargs-parser": "~18"
+  },
+  "devDependencies": {},
+  "files": [
+    "index.js",
+    "bin",
+    "lib"
+  ]
+}

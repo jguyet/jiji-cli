@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+const { argv, run } = require('..');
+const args = argv();
+
+if (typeof args === 'number') {
+  process.exit(args);
+} else {
+  run(args, exitCode => process.exit(exitCode));
+}
