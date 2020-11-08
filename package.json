@@ -1,6 +1,6 @@
 {
   "name": "jiji-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple CLI for jiji-js",
   "main": "index.js",
   "bin": {
@@ -17,7 +17,10 @@
   "license": "MIT",
   "dependencies": {
     "async": "~3",
+    "chokidar": "^3.4.3",
+    "connect-livereload": "^0.6.1",
     "express": "^4.17.1",
+    "livereload": "^0.9.1",
     "open": "^7.3.0",
     "ora": "^5.1.0",
     "readline-sync": "^1.4.10",
