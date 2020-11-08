@@ -1,10 +1,17 @@
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![license][license-image]][license-url]
+
 # jiji-cli
+
 
 CLI for jiji-js
 
 ## Installation
 
+````shell
 npm install -g jiji-cli
+````
 
 ## Usage
 
@@ -73,3 +80,10 @@ index.html      index.js      style.css
 ## License
 
 MIT
+
+[npm-image]: https://img.shields.io/npm/v/jiji-cli.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/jiji-cli
+[travis-image]: https://travis-ci.com/jguyet/jiji-cli.svg
+[travis-url]: https://travis-ci.com/github/jguyet/jiji-cli
+[license-image]: https://img.shields.io/npm/l/express.svg
+[license-url]: https://tldrlegal.com/license/mit-license
