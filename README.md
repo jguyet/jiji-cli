@@ -4,7 +4,7 @@ CLI for jiji-js
 
 ## Installation
 
-npm install postcss-cli-simple
+npm install -g jiji-cli
 
 ## Usage
 
