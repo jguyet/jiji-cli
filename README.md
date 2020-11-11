@@ -1,5 +1,6 @@
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
+[![Coverage][coverage][coverage-url]]
 [![license][license-image]][license-url]
 
 # jiji-cli
@@ -111,3 +112,5 @@ MIT
 [travis-url]: https://travis-ci.com/github/jguyet/jiji-cli
 [license-image]: https://img.shields.io/npm/l/express.svg
 [license-url]: https://tldrlegal.com/license/mit-license
+[coverage]: https://coveralls.io/repos/github/jguyet/jiji-cli/badge.svg?branch=master
+[coverage-url]: https://coveralls.io/github/jguyet/jiji-cli
