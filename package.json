@@ -1,6 +1,6 @@
 {
   "name": "jiji-cli",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "simple CLI for jiji-js",
   "main": "index.js",
   "bin": {
