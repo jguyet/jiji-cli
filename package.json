@@ -6,7 +6,9 @@
   "bin": {
     "ji": "./bin/ji"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --reporter list"
+  },
   "repository": "https://github.com/jguyet/jiji-cli.git",
   "keywords": [
     "jiji",
@@ -26,7 +28,9 @@
     "readline-sync": "^1.4.10",
     "yargs-parser": "~18"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
   "files": [
     "index.js",
     "bin",
