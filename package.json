@@ -7,7 +7,7 @@
     "ji": "./bin/ji"
   },
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --reporter list"
+    "test": "node node_modules/tap/bin/run.js test/*.js"
   },
   "repository": "https://github.com/jguyet/jiji-cli.git",
   "keywords": [
@@ -19,6 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "connect-livereload": "^0.6.1",
+    "del": "^6.0.0",
     "express": "^4.17.1",
     "glob": "^7.1.6",
     "livereload": "^0.9.1",
@@ -29,7 +30,7 @@
     "yargs-parser": "~18"
   },
   "devDependencies": {
-    "mocha": "^8.2.1"
+    "tap": "^14.10.8"
   },
   "files": [
     "index.js",
