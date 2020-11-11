@@ -63,6 +63,10 @@ Start build before starting debug server
 App listening at http://localhost:8080
 ````
 
+Go to http://localhost:8080
+
+<img src="https://github.com/jguyet/jiji-start/raw/master/src/public/jiji-js.png"/>
+
 Use for build application :
 
 ````shell
