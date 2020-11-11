@@ -26,8 +26,8 @@ ji new
 
 #### `[command]`
 
-- `ji new` - create new sample application
-- `ji debug` - create server in default 8080 port with application pre-builded
+- `ji new` - create new application
+- `ji debug` - start server in default 8080 port with application pre-builded
 - `ji build` - build your application to dist directory
 
 #### `--help|-h`
@@ -40,18 +40,31 @@ Use for create sample application :
 
 ````shell
 $ ji new 
-What name do you want for the new workspace and the initial project? $> helloWorld
-
-CREATE /Users/jeremyguyet/project/helloWorld/package.json (2424)
-CREATE /Users/jeremyguyet/project/helloWorld/main.js (1528)
-CREATE /Users/jeremyguyet/project/helloWorld/src/page1.js (4064)
-CREATE /Users/jeremyguyet/project/helloWorld/src/page2.js (4024)
+Which project name? $> jiji-start
+[1] Browser
+[2] Mobile
+[0] CANCEL
+Which platform? [1, 2, 0]: 1
+CREATE jiji-start/jiconfig.json (440 bytes)
+CREATE jiji-start/package.json (3992 bytes)
+CREATE jiji-start/README.md (152 bytes)
+CREATE jiji-start/src/favicon.ico (34288 bytes)
+CREATE jiji-start/src/home/home.controller.js (4104 bytes)
+CREATE jiji-start/src/home/home.html.js (20576 bytes)
+CREATE jiji-start/src/index.html (25472 bytes)
+CREATE jiji-start/src/index.js (2096 bytes)
+CREATE jiji-start/src/public/icon/codersrank.svg (6080 bytes)
+CREATE jiji-start/src/public/icon/github.svg (6784 bytes)
+CREATE jiji-start/src/public/icon/instacart.svg (4840 bytes)
+CREATE jiji-start/src/public/jiji-js.png (460656 bytes)
+CREATE jiji-start/src/public/logo.png (4728 bytes)
+CREATE jiji-start/src/style.css (159744 bytes)
 ✔ Packages installed successfully.
 ✔ Successfully initialized.
 ````
 
 ````
-$ cd helloWorld
+$ cd jiji-start
 ````
 
 Use for debug :
@@ -77,8 +90,15 @@ Build Finished.
 ````
 
 ````shell
-$ ls dist
-index.html      index.js      style.css
+$ ls -la dist
+total 96
+drwxr-xr-x   7 jeremyguyet  staff    224 11 nov 04:39 .
+drwxr-xr-x  12 jeremyguyet  staff    384 11 nov 04:39 ..
+-rw-r--r--   1 jeremyguyet  staff  14149 11 nov 04:39 WNDIjwXd7PUFcEmarIhkXbav9vPLyQqY.js
+-rw-r--r--   1 jeremyguyet  staff   4286 11 nov 04:39 favicon.ico
+-rw-r--r--   1 jeremyguyet  staff   3236 11 nov 04:39 index.html
+drwxr-xr-x   6 jeremyguyet  staff    192 11 nov 04:39 public
+-rw-r--r--   1 jeremyguyet  staff  19968 11 nov 04:39 yGiszU55qkH8jeX8Rnb2bYotYQGHgozX.css
 ````
 
 ## License
