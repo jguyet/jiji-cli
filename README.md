@@ -1,6 +1,6 @@
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
-[![Coverage][coverage]][coverage-url]]
+[![Coverage][coverage]][coverage-url]
 [![license][license-image]][license-url]
 
 # jiji-cli
