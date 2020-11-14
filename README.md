@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-[![NPM version][npm-image]][npm-url]&nbsp;
-[![build status][travis-image]][travis-url]&nbsp;
-[![Coverage][coverage]][coverage-url]&nbsp;
+[![NPM version][npm-image]][npm-url] &nbsp;
+[![build status][travis-image]][travis-url] &nbsp;
+[![Coverage][coverage]][coverage-url] &nbsp;
 [![license][license-image]][license-url]
 </p>
 
