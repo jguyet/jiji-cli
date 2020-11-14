@@ -18,9 +18,9 @@
 <a href="https://tldrlegal.com/license/mit-license">
 <img src="https://img.shields.io/npm/l/express.svg">
 </a>
-<a href="https://coveralls.io/github/jguyet/jiji-cli">
+<!-- <a href="https://coveralls.io/github/jguyet/jiji-cli">
 <img src="https://coveralls.io/repos/github/jguyet/jiji-cli/badge.svg?branch=master">
-</a>
+</a> -->
 </p>
 
 CLI for jiji-js framework 
