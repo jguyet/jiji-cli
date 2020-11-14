@@ -2,3 +2,5 @@
 test/_build
 package-lock.json
 .DS_Store
+.nyc_output
+coverage

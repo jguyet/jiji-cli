@@ -7,7 +7,9 @@
     "ji": "./bin/ji"
   },
   "scripts": {
-    "test": "node node_modules/tap/bin/run.js test/*.js"
+    "test": "./node_modules/nyc/bin/nyc.js --reporter=lcov --reporter=text-summary ./node_modules/mocha/bin/mocha",
+    "test-silent": "./node_modules/nyc/bin/nyc.js --silent ./node_modules/mocha/bin/mocha",
+    "coverage": "./node_modules/nyc/bin/nyc.js --reporter=text ./node_modules/mocha/bin/mocha"
   },
   "repository": "https://github.com/jguyet/jiji-cli.git",
   "keywords": [
@@ -23,6 +25,8 @@
     "express": "^4.17.1",
     "glob": "^7.1.6",
     "livereload": "^0.9.1",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
     "open": "^7.3.0",
     "ora": "^5.1.0",
     "readline-sync": "^1.4.10",
