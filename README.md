@@ -23,8 +23,6 @@
 </a> -->
 </p>
 
-CLI for jiji-js framework 
-
 ## Installation
 
 ````shell
