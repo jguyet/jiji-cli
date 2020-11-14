@@ -9,10 +9,18 @@
 </p>
 
 <p align="center">
-[![NPM version][npm-image]][npm-url] &nbsp;
-[![build status][travis-image]][travis-url] &nbsp;
-[![Coverage][coverage]][coverage-url] &nbsp;
-[![license][license-image]][license-url]
+<a href="https://npmjs.org/package/jiji-cli">
+<img src="https://img.shields.io/npm/v/jiji-cli.svg?style=flat-square">
+</a>&nbsp;
+<a href="https://travis-ci.com/github/jguyet/jiji-cli">
+<img src="https://travis-ci.com/jguyet/jiji-cli.svg">
+</a>&nbsp;
+<a href="https://tldrlegal.com/license/mit-license">
+<img src="https://img.shields.io/npm/l/express.svg">
+</a>
+<a href="https://coveralls.io/github/jguyet/jiji-cli">
+<img src="https://coveralls.io/repos/github/jguyet/jiji-cli/badge.svg?branch=master">
+</a>
 </p>
 
 CLI for jiji-js framework 
@@ -148,12 +156,5 @@ Index toto CREATED
 ## License
 
 MIT
-
-[npm-image]: https://img.shields.io/npm/v/jiji-cli.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/jiji-cli
-[travis-image]: https://travis-ci.com/jguyet/jiji-cli.svg
-[travis-url]: https://travis-ci.com/github/jguyet/jiji-cli
-[license-image]: https://img.shields.io/npm/l/express.svg
-[license-url]: https://tldrlegal.com/license/mit-license
 [coverage]: https://coveralls.io/repos/github/jguyet/jiji-cli/badge.svg?branch=master
 [coverage-url]: https://coveralls.io/github/jguyet/jiji-cli
