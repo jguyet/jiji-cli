@@ -154,5 +154,3 @@ Index toto CREATED
 ## License
 
 MIT
-[coverage]: https://coveralls.io/repos/github/jguyet/jiji-cli/badge.svg?branch=master
-[coverage-url]: https://coveralls.io/github/jguyet/jiji-cli
